@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-service
+  description: Microservicio de ejemplo
+  annotations:
+    github.com/project-slug: luismiguelzapata/my-service
+    argocd/app-name: my-service
+    backstage.io/kubernetes-id: my-service
+spec:
+  type: service
+  lifecycle: production
+  owner: equipo-dev
