@@ -4,7 +4,7 @@ metadata:
   name: my-service
   description: Un servicio de ejemplo con GitHub Actions CI
   annotations:
-    github.com/project-slug: tu-usuario/my-service
+    github.com/project-slug: luismiguelzapata/my-service
     github.com/actions-workflow: ci.yml
 spec:
   type: service
