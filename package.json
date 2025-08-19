@@ -1,0 +1,13 @@
+{
+  "name": "my-service",
+  "version": "1.0.0",
+  "description": "Ejemplo de servicio con Node.js, Backstage y GitHub Actions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Running tests...\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
